@@ -13,14 +13,20 @@ body {
   padding: 20px;
   background-size: cover;
   height: 100vh;
-  background-image: url("/yuruslugi2/img/бг 1.jpg");
+  background-image: url('./img/бг 1.png');
 }
 
 .header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .wrapper {
@@ -29,6 +35,8 @@ body {
 }
 
 .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -83,23 +91,46 @@ body {
 }
 
 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: rgba(255, 255, 255, 0.7);
   /* medium */
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 306px;
-  justify-content: space-evenly;
-  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
 }
 
 .form-input {
   border: 1px solid #462C57;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 5px;
   width: 274px;
   height: 40px;
+}
+
+.form-input::-webkit-input-placeholder {
+  padding: 10px;
+}
+
+.form-input:-ms-input-placeholder {
+  padding: 10px;
+}
+
+.form-input::-ms-input-placeholder {
+  padding: 10px;
 }
 
 .form-input::placeholder {
@@ -107,8 +138,12 @@ form {
 }
 
 .block__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 40px;
   /* position: absolute; */
 }
@@ -122,5 +157,4 @@ form {
   /* left: 20%; */
   top: -42%;
 }
-
 /*# sourceMappingURL=style.css.map */
