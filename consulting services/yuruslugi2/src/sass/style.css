@@ -13,7 +13,7 @@ body {
   padding: 20px;
   background-size: cover;
   height: 100vh;
-  background-image: url('./img/бг 1.png');
+  background-image: url("./img/бг 1.jpg");
 }
 
 .header__wrapper {
@@ -86,7 +86,7 @@ body {
 .header__form {
   position: relative;
   left: 62%;
-  top: -20%;
+  top: -40%;
   width: 384px;
 }
 
@@ -156,5 +156,26 @@ form {
   position: relative;
   /* left: 20%; */
   top: -42%;
+}
+
+.services__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.baner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
