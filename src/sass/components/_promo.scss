@@ -1,0 +1,17 @@
+.block__box{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    /* position: absolute; */
+   }
+   .block__box_left{
+    margin-right: 93px;
+   
+   }
+   .inner__box_left,   .inner__box_rigth{
+    position: relative;
+   
+    /* left: 20%; */
+    top: -42%;
+   }
+  
