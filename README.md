@@ -1,1 +1,0 @@
-# yuruslugi2
